@@ -1,0 +1,15 @@
+## npm i json-server
+## create fake json data:-
+    {
+        post: {
+            copy your json data
+        }
+    }
+
+                                                                      (file name)
+## package.json > make a script("json server") > "json-server --watch fakeDB.json --port 5000"
+
+            (script name)
+## npm run json-server 
+
+result:- http://localhost:5000/post

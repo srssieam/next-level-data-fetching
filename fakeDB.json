@@ -1,0 +1,40 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "title": "Exploring the World of AI",
+            "description": "Delve into the intricate world of artificial intelligence, where innovation meets technology. Discover its applications, advancements, and ethical considerations.",
+            "like_count": 150
+        },
+        {
+            "id": 2,
+            "title": "The Art of Cooking",
+            "description": "Embark on a culinary journey exploring diverse cuisines and cooking techniques. Learn from chefs, discover recipes, and share your culinary experiences.",
+            "like_count": 230
+        },
+        {
+            "id": 3,
+            "title": "Travel Tales: Adventures Await",
+            "description": "Roam the globe through captivating travel stories. From serene landscapes to bustling cities, get inspired to plan your next adventure.",
+            "like_count": 180
+        },
+        {
+            "id": 4,
+            "title": "Fitness Fundamentals",
+            "description": "Unlock the secrets to a healthier lifestyle. Dive into workout routines, nutritional tips, and motivational stories to keep you fit and energized.",
+            "like_count": 120
+        },
+        {
+            "id": 5,
+            "title": "Artistry in Motion: Dance Chronicles",
+            "description": "Experience the beauty and passion of dance. Explore various dance forms, performances, and the stories behind these graceful movements.",
+            "like_count": 320
+        },
+        {
+            "id": 6,
+            "title": "Mindfulness Matters",
+            "description": "Embrace mindfulness practices for a balanced life. Learn meditation techniques, stress-relief methods, and enhance your overall well-being.",
+            "like_count": 280
+        }
+    ]
+}
