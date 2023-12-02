@@ -3,7 +3,9 @@ import React from 'react';
 const PostPage = async () => {
 
     const res = await fetch("http://localhost:5000/post", {
-        cache: "force-cache"
+        next: {
+            revalidate: 5,
+        }
     });
     const posts = await res.json();
 
