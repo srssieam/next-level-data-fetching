@@ -13,3 +13,13 @@
 ## npm run json-server 
 
 result:- http://localhost:5000/post
+
+
+ run the app in production server
+-----------------------------------
+## cache: "force-cache"
+## npm run build
+## npm start
+    now app will run in production server
+        visit: http://localhost:5000/post
+

@@ -2,7 +2,9 @@ import React from 'react';
 
 const PostPage = async () => {
 
-    const res = await fetch("http://localhost:5000/post");
+    const res = await fetch("http://localhost:5000/post", {
+        cache: "force-cache"
+    });
     const posts = await res.json();
 
     // console.log(posts);
@@ -15,7 +17,7 @@ const PostPage = async () => {
                     <div className="card-body">
                         <h2 className="card-title">{post.title}</h2>
                         <p>{post.description}</p>
-                        <p>Lilkes {post.like_count}</p>
+                        <p>Likes: {post.like_count}</p>
                         <div className="card-actions justify-end">
                             <button className="btn btn-primary">See more</button>
                         </div>
